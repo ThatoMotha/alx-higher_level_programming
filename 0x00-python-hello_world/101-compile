@@ -1,0 +1,12 @@
+#!/bin/bash
+
+input_filename=$PYFILE
+
+if [ -z "$input_filename" ]; then
+    echo "Error: PYFILE environment variable not set."
+    exit 1
+fi
+
+python3 -m compileall "$input_filename" -d __pycache__
+
+echo "Compiled $input_filename to bytecode."
