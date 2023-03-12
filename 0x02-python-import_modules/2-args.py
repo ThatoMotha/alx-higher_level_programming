@@ -7,7 +7,6 @@ if __name__ == "__main__":
 
     if num_args == 0:
         print("Arguments:")
-        print(".")
     elif num_args == 1:
         print("Arguments")
         print("1: {}".format(args[0]))
