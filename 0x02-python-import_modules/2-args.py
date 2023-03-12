@@ -9,7 +9,7 @@ if __name__ == "__main__":
         print("Number of argument(s): 0.")
         print(".")
     elif num_args == 1:
-        print("NUmber of argument(s): 1. Argument:")
+        print("Number of argument(s): 1. Argument:")
         print("1: {}".format(args[0]))
     else:
         print("Number of argument(s): {}. Arguments:".format(num_args))
